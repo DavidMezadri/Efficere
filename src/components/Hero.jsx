@@ -14,12 +14,12 @@ const Hero = () => {
                     Efficere | Assessoria & Capacitação
                 </h2>
 
-                <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight bg-gradient-to-r from-gray-100 to-gray-400 bg-clip-text text-transparent animate-fade-in-up delay-100">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-8 leading-tight bg-gradient-to-r from-gray-100 to-gray-400 bg-clip-text text-transparent animate-fade-in-up delay-100">
                     Assessoria que fala <br />
                     <span className="text-primary-light">a língua dos gestores e servidores </span>municipais!
                 </h1>
 
-                <p className="text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto mb-12 leading-relaxed animate-fade-in-up delay-200">
+                <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-400 max-w-3xl mx-auto mb-12 leading-relaxed animate-fade-in-up delay-200">
                     Lidar com a burocracia e os desafios da Administração Pública exige
                     conhecimento técnico, planejamento e execução qualificada.
                 </p>

@@ -11,7 +11,7 @@ const Profile = () => {
 
             <div className="max-w-7xl mx-auto px-6 relative z-10 w-full">
                 <div className="text-center mb-6 md:mb-8">
-                    <h2 className="text-3xl font-bold text-primary-light mb-2">Nossa Fundadora</h2>
+                    <h2 className="text-2xl md:text-3xl font-bold text-primary-light mb-2">Nossa Fundadora</h2>
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-6 md:gap-8 items-center">
@@ -33,7 +33,7 @@ const Profile = () => {
 
                     {/* Content Column */}
                     <div className="space-y-6">
-                        <div className="space-y-6 text-gray-300 text-lg leading-relaxed text-justify">
+                        <div className="space-y-4 md:space-y-6 text-gray-300 text-sm sm:text-base md:text-lg leading-relaxed text-justify">
                             <p>
                                 Com sólida experiência em gestão pública e profundo conhecimento em direito administrativo,
                                 <strong> Karina Doninelli</strong> fundou a <strong>Efficere</strong> com a missão de transformar

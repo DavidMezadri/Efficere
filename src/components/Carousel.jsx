@@ -1,20 +1,15 @@
 import React, { useState, useEffect } from 'react';
 
 const carouselItems = [
-    { img: '/images/Efficere_ST-20.jpg', title: 'Capacitação', desc: 'Formação continuada', text: 'Formação continuada teste 123' },
-    { img: '/images/Efficere_ST-24.jpg', title: 'Consultoria', desc: 'Assessoria estratégica', text: 'Formação continuada teste 123' },
-    { img: '/images/Efficere_ST-46.jpg', title: 'Planejamento', desc: 'Desenvolvimento municipal', text: 'Formação continuada teste 123' },
-    { img: '/images/b014b38f-4dba-4349-8e7e-81530b4c1055.jpg', title: 'Processos', desc: 'Otimização administrativa', text: 'Formação continuada teste 123' },
-    { img: '/images/fac76bdf-e22a-46df-9fde-2cab52eb283d.jpg', title: 'Inovação', desc: 'Soluções modernas', text: 'Formação continuada teste 123' },
-    { img: '/images/IMG-20251025-WA0005.jpg', title: 'Inovação', desc: 'Soluções modernas', text: 'Formação continuada teste 123' },
-    { img: '/images/IMG-20251025-WA0006.jpg', title: 'Inovação', desc: 'Soluções modernas', text: 'Formação continuada teste 123' },
-    { img: '/images/IMG-20251025-WA0007.jpg', title: 'Inovação', desc: 'Soluções modernas', text: 'Formação continuada teste 123' },
-    { img: '/images/IMG-20251025-WA0008.jpg', title: 'Inovação', desc: 'Soluções modernas', text: 'Formação continuada teste 123' },
-    { img: '/images/IMG-20251025-WA0009.jpg', title: 'Inovação', desc: 'Soluções modernas', text: 'Formação continuada teste 123' },
-    { img: '/images/IMG-20251025-WA0010.jpeg', title: 'Inovação', desc: 'Soluções modernas', text: 'Formação continuada teste 123' },
-    { img: '/images/IMG-20251025-WA0011.jpeg', title: 'Inovação', desc: 'Soluções modernas', text: 'OLaoo' },
-    { img: '/images/IMG-20251025-WA0012.jpeg', title: 'Inovação', desc: 'Soluções modernas', text: 'sdfdgsd' },
-    { img: '/images/IMG-20251025-WA0013.jpeg', title: 'Inovação', desc: 'Soluções modernas', text: 'sdfdgsd' },
+    { img: '/images/b014b38f-4dba-4349-8e7e-81530b4c1055.jpg', title: 'Consultoria', desc: 'Apoio especializado em legislação pública', text: 'Tira Dúvidas Nova Lei de Licitação AMASBi' },
+    { img: '/images/fac76bdf-e22a-46df-9fde-2cab52eb283d.jpg', title: 'Parcerias', desc: 'Fortalecendo municípios com conhecimento', text: 'Tira Dúvidas Nova Lei de Licitação para municípios associados na AMASBI' },
+    { img: '/images/IMG-20251025-WA0005.jpg', title: 'Treinamento', desc: 'Aprendizado contínuo para servidores', text: 'Capacitação Nova Lei de Licitação servidores da Secretaria de Saúde de Ibirubá' },
+    { img: '/images/IMG-20251025-WA0006.jpg', title: 'Qualificação', desc: 'Capacitação estratégica para saúde pública', text: 'Capacitação servidores da Secretaria de Saúde do município de Ibirubá' },
+    { img: '/images/IMG-20251025-WA0009.jpg', title: '', desc: 'Capacitação em boas práticas administrativas', text: 'Capacitação em Gestão de Contratos no município de Ibatiba-ES.' },
+    { img: '/images/IMG-20251025-WA0010.jpeg', title: 'Capacitação em Licitações', desc: 'Aperfeiçoamento constante em gestão pública', text: 'Capacitação Nova Lei de Licitações no município de Santa Teresa-ES.' },
+    { img: '/images/IMG-20251025-WA0011.jpeg', title: 'Gestão de Contratos', desc: 'Conhecimento especializado para os gestores públicos', text: 'Capacitação em Gestão e Fiscalização de Contratos no município de Santa Teresa-ES.' },
+    { img: '/images/IMG-20251025-WA0012.jpeg', title: 'Fiscalização e Gestão', desc: 'Melhorando a gestão e fiscalização de contratos públicos', text: 'Capacitação em Gestão e Fiscalização de Contratos no Município de Santa Teresa- ES' },
+    { img: '/images/IMG-20251025-WA0013.jpeg', title: 'Implementação Legislativa', desc: 'Implantação da Nova Lei de Licitações com excelência', text: 'Comissão de Implantação da Nova Lei de Licitações do município de Fontoura Xavier - RS' },
 ];
 
 // Note: Responsive logic 
@@ -69,7 +64,7 @@ const Carousel = () => {
         <section id="gallery" className="min-h-screen bg-bg-dark relative flex items-center justify-center py-12 md:py-20">
             <div className="max-w-7xl mx-auto px-4 md:px-6 w-full">
                 <div className="text-center mb-6">
-                    <h2 className="text-4xl font-bold text-primary-light mb-4">Nossa Atuação</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-primary-light mb-4">Nossa Atuação</h2>
                     <div className="w-20 h-1 bg-gradient-to-r from-primary to-primary-dark mx-auto rounded-full"></div>
                 </div>
 
@@ -77,13 +72,13 @@ const Carousel = () => {
                     {/* Controls */}
                     <button
                         onClick={prevSlide}
-                        className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-20 bg-black/50 hover:bg-primary text-white p-3 rounded-full backdrop-blur-sm transition-all opacity-0 group-hover:opacity-100 disabled:opacity-0"
+                        className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-20 bg-black/50 hover:bg-primary text-white p-3 rounded-full backdrop-blur-sm transition-all disabled:opacity-0"
                     >
                         ‹
                     </button>
                     <button
                         onClick={nextSlide}
-                        className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-20 bg-black/50 hover:bg-primary text-white p-3 rounded-full backdrop-blur-sm transition-all opacity-0 group-hover:opacity-100"
+                        className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-20 bg-black/50 hover:bg-primary text-white p-3 rounded-full backdrop-blur-sm transition-all"
                     >
                         ›
                     </button>
@@ -118,53 +113,39 @@ const Carousel = () => {
                     </div>
                 </div>
 
-                {/* Partners Section */}
+                {/* Partners Section - Infinite Carousel */}
                 <div className="mt-16">
-                    <h3 className="text-2xl font-bold text-primary-light text-center mb-10">Nossos Parceiros</h3>
+                    <h3 className="text-xl md:text-2xl font-bold text-primary-light text-center mb-8 md:mb-10">Nossos Parceiros</h3>
 
-                    <div className="flex items-center justify-center gap-16 flex-wrap max-w-3xl mx-auto">
-                        <div className="flex flex-col items-center gap-3 group">
-                            <div className="w-24 h-24 flex items-center justify-center bg-white/5 rounded-xl border border-white/10 p-4 hover:border-primary/30 transition-all hover:scale-105">
-                                <img
-                                    src="/images/Brasoes/ALEGRE.png"
-                                    alt="Brasão Alegre"
-                                    className="w-full h-full object-contain"
-                                />
-                            </div>
-                            <p className="text-gray-400 text-sm font-medium group-hover:text-primary-light transition-colors">Alegre</p>
-                        </div>
-
-                        <div className="flex flex-col items-center gap-3 group">
-                            <div className="w-24 h-24 flex items-center justify-center bg-white/5 rounded-xl border border-white/10 p-4 hover:border-primary/30 transition-all hover:scale-105">
-                                <img
-                                    src="/images/Brasoes/logo.png"
-                                    alt="Brasão Santa Tereza"
-                                    className="w-full h-full object-contain"
-                                />
-                            </div>
-                            <p className="text-gray-400 text-sm font-medium group-hover:text-primary-light transition-colors">Santa Tereza</p>
-                        </div>
-
-                        <div className="flex flex-col items-center gap-3 group">
-                            <div className="w-24 h-24 flex items-center justify-center bg-white/5 rounded-xl border border-white/10 p-4 hover:border-primary/30 transition-all hover:scale-105">
-                                <img
-                                    src="/images/Brasoes/logo_FontouraXavier_site.png"
-                                    alt="Brasão Fontoura Xavier"
-                                    className="w-full h-full object-contain"
-                                />
-                            </div>
-                            <p className="text-gray-400 text-sm font-medium group-hover:text-primary-light transition-colors">Fontoura Xavier</p>
-                        </div>
-
-                        <div className="flex flex-col items-center gap-3 group">
-                            <div className="w-24 h-24 flex items-center justify-center bg-white/5 rounded-xl border border-white/10 p-4 hover:border-primary/30 transition-all hover:scale-105">
-                                <img
-                                    src="/images/Brasoes/logo_site.png"
-                                    alt="Brasão Marilândia"
-                                    className="w-full h-full object-contain"
-                                />
-                            </div>
-                            <p className="text-gray-400 text-sm font-medium group-hover:text-primary-light transition-colors">Marilândia</p>
+                    <div className="relative overflow-hidden">
+                        <div className="flex animate-scroll-infinite hover:pause-animation">
+                            {/* First set of brasões */}
+                            {[
+                                { img: "/images/Brasoes/ALEGRE.png", name: "Alegre - ES" },
+                                { img: "/images/Brasoes/logo.png", name: "Santa Tereza - ES" },
+                                { img: "/images/Brasoes/logo_FontouraXavier_site.png", name: "Fontoura Xavier - RS" },
+                                { img: "/images/Brasoes/logo_site.png", name: "Marilândia - ES" },
+                                { img: "/images/Brasoes/ibiruba.png", name: "Ibirubá - RS" },
+                                { img: "/images/Brasoes/ibatiba.png", name: "Ibatiba - ES" },
+                            ].concat([
+                                { img: "/images/Brasoes/ALEGRE.png", name: "Alegre - ES" },
+                                { img: "/images/Brasoes/logo.png", name: "Santa Tereza - ES" },
+                                { img: "/images/Brasoes/logo_FontouraXavier_site.png", name: "Fontoura Xavier - RS" },
+                                { img: "/images/Brasoes/logo_site.png", name: "Marilândia - ES" },
+                                { img: "/images/Brasoes/ibiruba.png", name: "Ibirubá - RS" },
+                                { img: "/images/Brasoes/ibatiba.png", name: "Ibatiba - ES" },
+                            ]).map((brasao, index) => (
+                                <div key={index} className="flex flex-col items-center gap-3 group flex-shrink-0 mx-8">
+                                    <div className="w-20 h-20 sm:w-24 sm:h-24 flex items-center justify-center bg-white/5 rounded-xl border border-white/10 p-3 sm:p-4 hover:border-primary/30 transition-all hover:scale-105">
+                                        <img
+                                            src={brasao.img}
+                                            alt={brasao.name}
+                                            className="w-full h-full object-contain"
+                                        />
+                                    </div>
+                                    <p className="text-gray-400 text-xs sm:text-sm font-medium group-hover:text-primary-light transition-colors whitespace-nowrap">{brasao.name}</p>
+                                </div>
+                            ))}
                         </div>
                     </div>
                 </div>

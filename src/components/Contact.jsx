@@ -4,10 +4,10 @@ import { MdEmail } from 'react-icons/md';
 
 const Contact = () => {
     return (
-        <section id="contact" className="h-screen bg-bg-darker relative flex items-center justify-center">
+        <section id="contact" className="min-h-screen bg-bg-darker relative flex items-center justify-center py-16 md:py-20">
             <div className="max-w-5xl mx-auto px-6 text-center">
-                <h2 className="text-5xl font-bold text-primary-light mb-10">Entre em Contato</h2>
-                <p className="text-gray-400 text-xl mb-16">
+                <h2 className="text-3xl md:text-5xl font-bold text-primary-light mb-10">Entre em Contato</h2>
+                <p className="text-gray-400 text-lg md:text-xl mb-12 md:mb-16">
                     Estamos prontos para transformar a gestão pública do seu município.
                 </p>
 
