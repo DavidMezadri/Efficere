@@ -33,7 +33,7 @@ Website institucional da **Efficere**, empresa especializada em assessoria e cap
 <div align="center">
   
 ### Hero Section
-![Hero Section](https://raw.githubusercontent.com/seu-usuario/efficere-website/main/public/screenshots/hero.png)
+![Hero Section](https://raw.githubusercontent.com/DavidMezadri/efficere-website/main/public/screenshots/hero.png)
 
 ### Serviços
 ![Serviços](https://raw.githubusercontent.com/seu-usuario/efficere-website/main/public/screenshots/services.png)
