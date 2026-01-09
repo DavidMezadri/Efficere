@@ -33,16 +33,16 @@ Website institucional da **Efficere**, empresa especializada em assessoria e cap
 <div align="center">
   
 ### Hero Section
-![Hero Section](https://raw.githubusercontent.com/DavidMezadri/efficere-website/main/public/screenshots/hero.png)
+![Hero Section](https://github.com/DavidMezadri/Efficere/blob/main/public/screenshots/carousel.png)
 
 ### Serviços
-![Serviços](https://raw.githubusercontent.com/seu-usuario/efficere-website/main/public/screenshots/services.png)
+![Serviços](https://github.com/DavidMezadri/Efficere/blob/main/public/screenshots/services.png)
 
 ### Nossa Atuação
-![Carrossel](https://raw.githubusercontent.com/seu-usuario/efficere-website/main/public/screenshots/carousel.png)
+![Carrossel](https://github.com/DavidMezadri/Efficere/blob/main/public/screenshots/carousel.png)
 
 ### Contato
-![Contato](https://raw.githubusercontent.com/seu-usuario/efficere-website/main/public/screenshots/contact.png)
+![Contato](https://github.com/DavidMezadri/Efficere/blob/main/public/screenshots/contact.png)
 
 </div>
 
