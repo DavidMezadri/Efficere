@@ -22,7 +22,7 @@ const Profile = () => {
                             <img
                                 src="/images/perfil/Karina Doninelli-1.jpg"
                                 alt="Karina Doninelli - CEO e Fundadora"
-                                className="w-full h-auto max-h-[500px] md:max-h-[600px] object-cover transform group-hover:scale-105 transition-transform duration-700"
+                                className="w-full h-auto max-h-[600px] md:max-h-[600px] object-cover object-top transform group-hover:scale-105 transition-transform duration-700"
                             />
                             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent p-6">
                                 <h3 className="text-2xl font-bold text-white mb-1">Karina Doninelli</h3>

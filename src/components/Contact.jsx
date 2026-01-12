@@ -11,17 +11,7 @@ const Contact = () => {
                     Estamos prontos para transformar a gestão pública do seu município.
                 </p>
 
-                <div className="grid md:grid-cols-3 gap-10 mb-16">
-                    <div className="bg-bg-card border border-white/5 rounded-2xl p-10 hover:border-primary/30 transition-colors">
-                        <div className="text-4xl mb-6 grayscale hover:grayscale-0 transition" aria-label="Email">
-                            <MdEmail className="mx-auto text-primary" size={48} />
-                        </div>
-                        <h3 className="text-xl font-bold text-white mb-2">Email</h3>
-                        <a href="mailto:contato@efficerelicitacoes.com.br" className="text-primary hover:text-primary-light transition-colors">
-                            contato@efficerelicitacoes.com.br
-                        </a>
-                    </div>
-
+                <div className="grid md:grid-cols-2 gap-10 mb-16">
                     <a
                         href="https://wa.me/555499668936?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Efficere."
                         target="_blank"
@@ -50,7 +40,7 @@ const Contact = () => {
                 </div>
 
                 <a
-                    href="mailto:contato@efficerelicitacoes.com.br"
+                    href="https://wa.me/555499668936?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Efficere."
                     className="inline-block px-12 py-5 bg-gradient-to-r from-primary to-primary-dark text-white font-bold rounded-full shadow-[0_4px_20px_rgba(174,168,152,0.4)] hover:shadow-[0_6px_30px_rgba(174,168,152,0.6)] transform hover:-translate-y-1 transition-all duration-300"
                 >
                     Entre em Contato
